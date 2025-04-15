@@ -1,0 +1,304 @@
+---
+title: "Logophoricity and the processing of Chinese reflexives"
+subtitle: "Lyu & Kaiser (2024)"
+author: "Ying Zhang"
+institute: "Rutgers University"
+date: "2024-04-14"
+output:
+  xaringan::moon_reader:
+    css: ["rutgers", "rutgers-fonts"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+# 1. Introduction
+[Lyu & Kaiser (2024)](https://link.springer.com/article/10.1007/s10831-024-09287-9) examine two types of reflexive pronouns in Chinese, *ziji* ('self') and *taziji* ('s/he-self') to investigate how their exempt use is related to perspective-taking or logophoricity.
+
+Reflexive pronouns (hence 'reflexives') are used for reference. Their referent is determined by their antecedents. For example, the reflexive *herself* in (1) refers to *Mary* since *Mary* is the antecedent of *herself*.
+
+(1) Mary saw herself in the mirror.
+
+---
+# 1. Introduction
+### The exempt use
+There are various constraints on selecting an antecedent for a reflexive. Condition A (Chomsky 1981) is one of them which is a grammatical constraint requiring that the antecedent be structurally prominent (i.e., c-command) within the minimal clause.
+
+However, reflexives can co-refer with a non-structurally-prominent (e.g., discourse prominence) antecedent, known as the exempt use. Discourse cues include topicality and the Logophoric Hierarchy (Curly 1994).
+
+Exempt reflexives are perspective-sensitive. Their ancetedent can be the perspective center whose thoughts, feelings, and states of mind are reported in the sentence (Clements 1975). 
+
+---
+# 1. Introduction
+### The Logophoric Hierarchy (Curly 1994)
+The Logophoric Hierarchy shows that subjects of speech predicates are most likely to co-refer with logophoric pronouns, while subjects of direct perception predicates are least likely to do that. 
+
+This hierarchy is shown to interact with exempt reflexives, restricting their antecedents.
+
+- The Logophoric Hierarchy (Curly 1994)
+
+Speech > thought > knowledge > direct perception
+
+---
+# 1. Introduction
+### *ziji* and *taziji*
+In (2), *ziji* can refer to both the local antecedent *Wang jiaoshou* indicated the shared index 1, and the non-local antecedent *Xiaoming* indexed by 2. However, *taziji* can only refer to the local *Wang jiaoshou*. 
+```{r, echo=FALSE, message=FALSE, results='hold', out.width="90%"}
+library("here")
+knitr::include_graphics(here("pics", "2.png"))
+```
+
+The non-local reading of *ziji* is considered as the exempt use and it is grammatical because the embedded clause can be viewed from the perspective center *Xiaoming* (Huang and Liu 2001). 
+
+
+
+---
+# 1. Introduction
+### *ziji* and *taziji*
+However, *taziji* can have a non-local antecedent if the embedded subject is inanimate (Pan 1998). As shown in (3), *taziji* can refer to a non-local antecedent *Xiaoming* when the local subject is the inanimate *na-ben shu* 'the book'.
+
+```{r, echo=FALSE, message=FALSE, results='hold', out.width="90%"}
+library("here")
+knitr::include_graphics(here("pics", "3.png"))
+```
+
+The non-local construal in (3) is taken as evidence that perspective affects the antecedent selection of *taziji*.
+---
+# 2. Research questions
+### 1. How do **Chinese exempt reflexives** interact with the **Logophoric Hierarchy**?
+ 
+
+### 2. What is the relative accessibility of the two discourse cues (topicality and the Logophoric Hierarchy) in **real-time selection for antecedents**?
+
+---
+class: center, middle
+
+# Exp 1: Logophoricity and the processing of *ziji*
+
+---
+# 3. Materials and design
+Experiment 1 consists of two parts: **the forced choice judgment task** (Experiment 1a) and **the self-paced reading task** (Experiment 1b) to examine whether the exempt use of *ziji* interacts with the 
+Logophoric Hierarchy.
+
+---
+# 3. Materials and design
+-24 sets of target stimuli distributed into 4 lists and mixed with 24 fillers in a pseudo-randomized manner
+
+-Targets: a context sentence introducing a topical referent to the discourse, and a critical sentence about that topical referent (also viewed as a perspective center)
+
+-Critical sentences: logophoric role (source/perceiver) and verb bias (self/other-directed) crossed to yield a 2 * 2 design
+
+-**Verb bias effects** used to test participants' binding preferences 
+
+-**Logophoric roles** used to test the degree of perspective sensitivity of reflexives 
+
+---
+# 3. Materials 
+- Context sentence
+
+<img src="pics/4.png" width="55%">
+
+- Critical sentence
+
+<img src="pics/5.png" width="80%">
+
+---
+class: inverse, middle, center
+
+# Experiment 1a: The forced choice judgment task
+
+---
+# 4. Methods
+### 4.1 Participants
+42 native Mandarin Chinese speakers (age 18)
+
+### 4.2 Procedure 
+On each trial, participants saw the context sentence first. When they pressed the spacebar, it disappeared and the critical sentence appeared. After they finished reading the critical sentence, a two-alternative comprehension question showed up which probed the antecedent of the reflexive. Participants then clicked on one of the two referents (e.g., Xiaoming/ Prof. Wang) which were shown in a randomized way. 
+
+---
+# 5. Results 
+### 5.1 Mixed effects logistic models for binary antecedent choices
+
+- Independent variables: **verb bias** and **logohphoric role** which were sum coded (self-directed: 0.5, other-directed: -0.5: source: 0.5, perceiver: -0.5)
+
+- Dependent variable: **antecedent choice**
+
+- An alpha value of 0.2 was adopted (Matuschek et al 2017).
+![](pics/6.png)
+
+---
+# 5. Results 
+### 5.2. The plots
+![](pics/7.png)
+
+---
+# 5. Results 
+### 5.3 From the authors
+- The main effect of **verb bias** (*p*<0.001) suggests that participants are more likely to choose a non-local antecedent with an other-directed verb.
+
+- Source subjects are marginally more likely to be selected compared to perceiver subjects only with self-directed verbs.
+
+- A **verb bias ⨯ logophoric role** interaction (p<0.04) is shown by the model, evidenced by the fact that the source effect is only significant in the self-directed verb conditions (β= -0.78, SE = 0.25, *t* = -3.09, *p*<0.002), but not in the other-directed verb conditions(β = 0.037, SE = 0.35, *t* = 0.11, *p* = 0.92). 
+
+- The absence of the source with other-directed verbs could be due to ceiling effects. 
+---
+# 5. Results
+- The effect of **source subjects** on antecedent choice is not statistically significant given *p* = 0.09 in the table. The conclusion that source subjects are marginally more likely to be selected is drawn from the gaps in the plots not statistically supported.
+
+- While the probability of the log odds for the beta value of **interaction** is 70%, its absolute t-value is not much great than that of **logophoric role**. 
+```{r}
+plogis(0.87)
+```
+---
+class: inverse, middle, center
+
+# Experiment 1b: Self-paced reading 
+
+---
+# 6. Methods
+### 6.1 Participants 
+89 native Mandarin Chinese speakers (age > 18)
+
+### 6.2 Procedure 
+Participants were shown the context sentence and the critical sentence separately on different screens. Each sentence was displayed chunk by chunk. The reflexive is the crititcal region, followed by three spillover regions.
+
+3/5 of comprehension questions on critical trials probed the antecedent choices; 2/5 of the questions presented after critical trials probed the understanding of the context to ensure that participants also paid attention to the context sentence. 
+
+---
+# 7. Results 
+### Mixed effects linear models over log-transformed RTs 
+- 3 participants were removed from the analysis because their comprehension question accuracies fall below 75%.
+
+- RTs below 100ms, over 3000ms and above 2.5 SDs from the mean by region and condition were excluded. As a result, 3.26% of the data was removed. 
+
+- Experiments 1a and 1b use the same coding and the same procedure for model selection.
+![](pics/9.png)
+
+---
+# 7. Results 
+### 7.1 The plot
+![](pics/8.png)
+
+---
+# 7. Results 
+### 7.2 From the authors 
+- At the critical reflexive region, there is a main effect of **verb bias** (p = 0.003) with self-directed verbs elicited RT slowdowns relative to other-directed verbs, in addition to the effect of **logophoric role** (p < 0.05).
+
+- The verb bias effect is significant in both the source conditions (β = -0.05, SE = 0.02, t = -2.53, *p* = 0.01) and perceiver conditions (β = -0.05, SE = 0.02, t = -2.53, *p* = 0.01) shown by pairwise comparison.
+
+- At the region DE, a delayed logophoric role effect emerges: self-directed verbs only caused reading slowdowns in the source conditions (β = -0.04, SE = 0.02, t = -2.32, *p* = 0.02), but not on the perceiver conditions (β = -0.02, SE = 0.02, t = -0.95, *p* = 0.35). 
+---
+# 7. Results 
+- **Verb bias** is described as the main effect due to *p* = 0.003, while **logophoric role** is stated as the effect with *p* < 0.05. However, their beta values don't differ much, -0.05 for verb bias and -0.03 for logophoric role, leading to similar probabilities for selecting a non-local antecedent.
+```{r}
+plogis(-0.05)
+plogis(-0.03)
+```
+
+- How the pairwise comparison is conducted is not very clear and the relevant data is not presented in a table but provided in the prose.
+
+- The purpose of the use of the plot is not very clear. 
+
+---
+class: middle, center
+
+# Exp 2: Logophoricity and the processing of *taziji*
+
+---
+
+# 8. Materials and design
+The materials and the design are the same as those in Experiment 1, except that *ziji* was replaced by *taziji*.
+
+---
+class: inverse, middle, center
+
+# Exp 2a: The forced choice judgment task
+
+---
+# 9. Methods 
+### 9.1 Participants 
+44 native Chinese speakers (age > 18)
+
+### 9.2 Procedure 
+The same procedure described in 4.2.
+
+---
+# 10. Results 
+An additional mixed effects logistic model is used to compare the antecedent choices in Experiments 2a and 1a by including the factor **reflexive type** (*ziji*: 0.5, *taziji*:-0.5).
+![](pics/10.png)
+
+---
+# 10. Results
+![](pics/14.png)
+
+---
+# 10. Results 
+### 10.1 The plots
+![](pics/11.png)
+
+---
+# 10. Results 
+### 10.2 From the authors 
+- The statistical model shows a main effect of **verb bias** (*p* < 0.001).
+
+- The main effect of **logophoric role** is only marginal (*p* = 0.08).
+
+- Planned comparisons reveal an effect of logophoric role with self-directed verbs (β = -0.57, SE = 0.25, t = -2.30, *p* = 0.02), not with the other-directed verbs (β = -0.15, SE = 0.30, t = -0.49, *p* = 0.62).
+
+- Overall, statistical analyses indicate that *taziji* behave similarly to *ziji* in terms of the verb bias effect and the logophoric role effect, supported by the data in Table 4.
+
+---
+# 10. Results
+- *p* =0.08 is not statistically significant and cannot tell whether a predictor has an effect on the dependent variable.
+
+- In Table 4, verb (*p* < 0.001), role (*p* < 0.03), reflexive (*p* < 0.03) and verb ⨯ role (*p* < 0.02) are statistically significant, suggesting that they have an effect on the antecedent choice. The p-values for verb ⨯ reflexive, role ⨯ reflexive and verb ⨯ role ⨯ reflexive are not statistically significant. It casts doubt in the conclusion that the two reflexives behave similarly regarding the two factors.
+
+---
+class: inverse, middle, center
+
+# Exp 2a: Self-paced reading
+
+---
+# 11. Methods
+### 11.1 Participants 
+80 native Mandarin Chinese speakers (age > 18)
+
+### 11.2 Procedure
+The same procedure described in 6.2.
+---
+# 12. Results 
+Seven participants were removed from the final analysis. Trimming based on RTs, as done in Experiment 1b, affected 3.33% of the original data.
+![](pics/13.png)
+
+---
+# 12. Results 
+### 12.1 The plot
+![](pics/12.png)
+
+---
+# 12. Results 
+### 12.2 From the authors 
+- The main effect of logophoric role at 'Prof. Wang' and the biased verbs (ps < 0.01 'I assumed this is a typo by the authors') reaches significance, due to an additional referent 'others' in the source conditions.
+
+- At the region of DE, a main effect of verb bias was found (*p* < 0.001).
+
+- Planned comparison, show that it is only in the source conditions that self-directed verbs caused RT slowdowns (β = -0.06, SE = 0.02, t = -3.29, *p* = 0.001). In the perceiver condition, the verb bias effect is not significant (β = -0.02, SE = 0.02, t = -1.38, *p* = 0.17) 
+
+---
+# 12. Results 
+- I don't know what trimming is and how it works.
+
+- It is impressive to draw conclusions based on the lack of significance.
+
+- It is efficient to present the data in the prose when the data in the table is not significant enough.
+
+- The comments are based on my current understanding of statistics. Misunderstandings are possible.
+---
+# 13. Evaluation
+- Model selection is good. 
+
+- It feels like statistically significant is considered as "significant'.
+
+- The conclusion that the two reflexives behave similarly regarding the two factors doesn't seem to be well statistically supported.
+
